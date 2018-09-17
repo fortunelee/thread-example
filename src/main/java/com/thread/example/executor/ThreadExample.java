@@ -37,7 +37,6 @@ public class ThreadExample{
             public void run() {
                 ThreadExample threadExample;
                 for (int i = 0; i < 10; i++){
-
                     log.info("create object class num : {} , object class : {}",i,threadExample = getInstance());
                 }
             }
